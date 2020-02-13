@@ -1,0 +1,25 @@
+#fp {
+    z-index: 2;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 30px;
+}
+#sp {
+    z-index: 1;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+
+}
+#tp {
+
+    position: absolute;
+    bottom: 0px;
+}
+a {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    background-color: green;
+}

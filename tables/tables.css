@@ -1,0 +1,29 @@
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+img {
+    height: 100px;
+    
+}
+th {
+    background-color: rgb(189, 13, 13);
+    color: white;
+    font-size: 20px;
+}
+th, td {
+    padding: 10px 0px;
+    font-weight: bold;
+    text-align: left;
+}
+tr:hover {
+    background-color: rgb(231, 197, 3);
+}
+tr:nth-child(odd) td {
+    background-color: lightgray;
+}
+
+td, th {
+    padding-left: 5px;
+}
