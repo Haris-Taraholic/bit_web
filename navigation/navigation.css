@@ -1,0 +1,10 @@
+.cf::after , .cf::before{
+    display: table;
+    content: "";
+}
+.cf::after{
+    clear: both;
+}
+#ul {
+    float: right;
+}
