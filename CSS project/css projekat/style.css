@@ -207,78 +207,101 @@ section article h3 {
 .imgstars img{
     margin-right: 10px;
 }
-
-.sectionTwo{
-    margin-bottom: 50px;
+.contact-info {
+    margin-top: 30px;
 }
-/* SECOND TO LAST SECTION */
-#flexWraper{
-    display: flex;
-
-}
-
-#wraperThree { 
-    box-sizing: border-box;
-    height: 150px;
-    width: 25%; 
-    background-color: rgb(56, 233, 40);
+.contact-info article {
+    width: 25%;
+    color: white;
+    height: 180px;
+    float: left;
     text-align: center;
-}
-
-
-.three{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.three img {
-    height: 20px;
-    width: 25px;
-    border-image-width: auto;
-}
-.three p{
-    margin: 5px;
-}
-#wraperThree h3 {
-    margin: 10px auto;
+    font-size: 15px;
     padding-top: 20px;
 }
-#boxTwo {
-    background-color: palevioletred;
-    width: 25%;
-}
-#boxTwo .pinkBox {
-    text-align: center;
-    padding-top: 10px;
+.contact-info h3 {
+    color: white;
+    font-weight: 300;
 }
 
-#boxThree{
-    width: 25%;  
+#art-one {
+    background-color: rgb(76, 228, 121);
+}
+#art-two {
+    background-color: rgb(238, 68, 147);
+}
+#art-three {
+    background-color: rgb(82, 82, 226);
+}
+#art-four {
+    background-color: rgb(100, 206, 241);
+}
+#art-two i {
+    margin: 7px;
+}
+#art-four img {  
+    height: 100%;
+}
+
+input {
+    height: 50px;
+    width: 33%;
+}
+textarea {
+    width: 960px;
+    margin: 20px auto;
+    display: block;
+}
+#input {
+    width: 960px;
+    margin: 20px auto;
+    display: block;
+}
+#submit {
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: rgb(228, 96, 20)
+}
+footer {
+    width: 100%;
+    background-color: black;
+}
+.foot {
     text-align: center;
-    background-color: blue;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+}
+footer ul {
+    padding-top: 30px;
+    display: inline-block;
+}
+footer ul li {
+    list-style-type: none;
+    float: left;
     padding-right: 10px;
-    font-size: small;
+    font-size: 12px;
+    color: white;
+    font-family: 'Roboto';
 }
-#imgLocation{
-    width: 20px;
-}
-#boxFour{
-    width: 25%;
+footer p {
+    color: white;
+    font-size: 12px;
     text-align: center;
-    background-color: lightblue;
+    padding-bottom: 30px;
 }
-#boxFour img{
-    height: 150px;
+.cf::before,
+.cf::after {
+    display: table;
+    content: "";
 }
-/*linkIN*/
+.cf::after {
+    clear: both;
+}
 
 
-     
+
 
 
 

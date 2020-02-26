@@ -1,0 +1,147 @@
+/************* VARIABLES *****************/
+/************** GENERAL SETTINGS *****************/
+.container-fluid {
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+/************** SLIDER IMAGE AND NAVBAR ***********/
+.slider {
+  position: relative; }
+
+/* Navbar */
+#cover-img {
+  background-size: contain;
+  width: 100%; }
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 5%;
+  right: 25%;
+  color: #ffffff; }
+
+.tanatos-logo {
+  font-size: 24px; }
+
+.tanatos-logo > span {
+  color: #ff5e00;
+  font-weight: bold; }
+
+.hamburger-menu img {
+  margin-left: 10px; }
+
+.hamburger-menu {
+  font-size: 18px; }
+
+/* Slider text */
+.slider-text {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+  /* Slider buttons */ }
+  .slider-text h1 {
+    font-size: 70px;
+    font-weight: bolder; }
+    .slider-text h1 span {
+      color: #ff5e00; }
+  .slider-text p {
+    font-size: 24px; }
+  .slider-text .slider-buttons {
+    margin-top: 60px; }
+  .slider-text .slider-btn-one {
+    padding: 10px 60px;
+    border-radius: 12px;
+    margin-right: 20px;
+    border-color: #969696;
+    color: #ffffff; }
+    .slider-text .slider-btn-one:hover {
+      background-color: #ff5e00;
+      border-color: #ff5e00; }
+  .slider-text .slider-btn-two {
+    padding: 10px 45px;
+    border-radius: 12px;
+    border-color: #969696;
+    color: #ffffff; }
+    .slider-text .slider-btn-two:hover {
+      background-color: #ff5e00;
+      border-color: #ff5e00; }
+
+#arrow-down {
+  margin-top: 25%; }
+
+/********* WHAT WE OFFER ************/
+#what-we-offer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center; }
+
+.center-images {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .center-images h4 {
+    font-size: 16px; }
+
+.round-img {
+  margin: 0;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; }
+
+/******** NEWSLETTER **********/
+.background-image {
+  background-image: url(../img/newsletter-background.jpg); }
+
+.wrapper {
+  text-align: center; }
+  .wrapper form {
+    margin: 100px auto; }
+
+.enter-email {
+  padding: 12px 400px 12px 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 25px; }
+
+.submit-email {
+  background-color: #ff5e00;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  padding: 12px 100px;
+  font-weight: bold; }
+
+/************ OUR WORKS *************/
+.hover-text {
+  display: none; }
+
+.our-work-h2 {
+  margin: 80px auto;
+  text-align: center;
+  width: 25%; }
+  .our-work-h2 span {
+    color: #ff5e00; }
+
+.our-works {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between; }
+  .our-works img {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=main.css.map */
