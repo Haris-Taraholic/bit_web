@@ -1,4 +1,4 @@
-var players = [
+var allPlayers = [
     {
         name: "Robert",
         lastname: "Lewandowski",
@@ -104,62 +104,89 @@ var players = [
         img: "img/zirkze.jpg"
     }
 ]
-function createPlayer(player) {
-    var img = document.createElement("img");
-    var imgUrl = player.img;
-    img.src = imgUrl + "";
-    var div = document.createElement("div");
-
-    var name = player.name;
-    var lastName = player.lastname;
-    var number = player.number;
-
-    var p = document.createElement("p");
-    var text = name + "\n" + lastName + "\n" + number;
-    text = document.createTextNode(text);
-
-    p.appendChild(text);
-    div.appendChild(img);
-    div.appendChild(p);
-    return div;
-}
-
 
 function getRandomNumber(limit) {
-    var number = (limit - 1) * Math.random();
-    number = Math.round(number);
-    return number;
+    return Math.round((limit - 1) * Math.random());
 }
 
-function getPlayer(players) {
-    while (players.length) {
-        var ranNum = getRandomNumber(players.length);
-        var player = players[ranNum];
-        var div = createPlayer(player);
-        if (players.length > 4) {
-            firstSection.appendChild(div);
-        } else {
-            secSection.appendChild(div);
+
+function createListsOfPlayers(players) {
+    var mixed = [];
+
+    while (mixed.length < players.length) {
+        var randomNumber = getRandomNumber(players.length);
+        if (mixed.indexOf(randomNumber) === -1) {
+            mixed.push(randomNumber);
         }
-        players.splice(ranNum, 1);
+    }
+
+    var onField = [];
+    var onBench = [];
+    for (var i = 0; i < players.length; i++) {
+        if (i < 11) {
+            onField.push(players[mixed[i]]);
+        } else {
+            onBench.push(players[mixed[i]]);
+        }
+    }
+
+    return {
+        onField: onField,
+        onBench: onBench
+    };
+}
+
+function createPlayer(player) {
+    var $playerImage = document.createElement("img");
+    $playerImage.src = player.img;
+
+    var $bio = document.createElement("p");
+    $bio.textContent = player.name + " " + player.lastname + " " + player.number;
+
+    var $frame = document.createElement("div");
+    $frame.appendChild($playerImage);
+    $frame.appendChild($bio);
+
+    return $frame;
+}
+
+
+function printPlayers(players, $element) {
+    for (var i = 0; i < players.length; i++) {
+        var $player = createPlayer(players[i]);
+        $element.appendChild($player);
     }
 }
 
-var firstSection = document.querySelector(".firstSection");
-var secSection = document.querySelector(".secSection");
-
-getPlayer(players);
-
-function swapPlayer(players) {
-    var firstSec = document.querySelectorAll(".firstSection div");
-    var randomNum = getRandomNumber(firstSec.length);
-    var player = firstSec[randomNum];
-    secSection.appendChild(player);
-    //////////////////////////////////
-    var secoundSection = document.querySelectorAll(".secSection div");
-    var randomNum2 = getRandomNumber(secoundSection.length);
-    var playerTwo = secoundSection[randomNum2];
-    firstSection.appendChild(playerTwo);
+function print(players) {
+    printPlayers(players.onField, $field);
+    printPlayers(players.onBench, $bench);
 }
 
-setInterval(swapPlayer, 1000);
+var $field = document.querySelector(".firstSection");
+var $bench = document.querySelector(".secSection");
+
+var players = createListsOfPlayers(allPlayers);
+print(players);
+
+// change player 
+// print
+
+
+
+
+// getPlayer(allPlayers);
+
+// function swapPlayer(players) {
+//     var firstSec = document.querySelectorAll(".firstSection div");
+//     var randomNum = getRandomNumber(firstSec.length);
+//     var player = firstSec[randomNum];
+//     secSection.appendChild(player);
+//     //////////////////////////////////
+//     var secoundSection = document.querySelectorAll(".secSection div");
+//     var randomNum2 = getRandomNumber(secoundSection.length);
+//     var playerTwo = secoundSection[randomNum2];
+//     $field.appendChild(playerTwo);
+// }
+
+// setInterval(swapPlayer, 1000);
