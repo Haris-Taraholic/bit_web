@@ -1,0 +1,17 @@
+body {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+img {
+  width: 218px;
+  height: 218px;
+}
+
+.selected {
+  border: 2px solid red;
+}
+
+#containerOne {
+  margin-bottom: 50px;
+}

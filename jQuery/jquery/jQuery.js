@@ -21,9 +21,6 @@
 //     }
 
 
-var footballPitch = document.getElementById('body');
-var player = document.getElementById('player');
-
 $("body").on("click", function (event) {
     $("img").css("left", event.clientX + "px");
     $("img").css("top", event.clientY + "px");
