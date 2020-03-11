@@ -1,0 +1,43 @@
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body {
+  background-color: aqua;
+}
+
+input {
+  height: 30px;
+}
+#main div {
+  width: 25%;
+  min-width: 25%;
+  margin: 20px 5px;
+  background-color: aqua;
+}
+
+#main {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+}
+#main div img {
+  width: 100%;
+  border-radius: 50%;
+}
+#main div p {
+  background-color: royalblue;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  border-top: 2px solid black;
+}
+#main div:hover {
+  background-color: yellow;
+  transition: width 1s, height 2s;
+  width: 28%;
+}
