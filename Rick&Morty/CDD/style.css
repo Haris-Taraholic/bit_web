@@ -12,4 +12,20 @@
 .pageSelect:hover {
   background-color: green; }
 
+.mainDiv {
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .mainDiv div {
+    border: 1px solid black;
+    background-color: lightgray;
+    margin-bottom: 10px; }
+    .mainDiv div:hover {
+      background-color: lightskyblue; }
+  .mainDiv img {
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
