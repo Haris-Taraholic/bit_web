@@ -1,0 +1,79 @@
+/************** First part of the exercise *******************/
+
+/********** Global settings ********/
+body {
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+
+/********* @font-face ************/
+@font-face {
+    font-family: 'action_manregular';
+    src: url('../fonts/action_man-webfont.woff2') format('woff2'),
+        url('../fonts/action_man-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/********** Paragraphs ***********/
+#first-heading {
+    font-family: 'Coda Caption', sans-serif;
+}
+
+#first-paragraph {
+    font-family: 'action_manregular';
+    font-size: 16px;
+}
+
+#second-paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+
+#third-paragraph {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#third-paragraph span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#forth-paragraph {
+    font-family: fantasy;
+}
+
+
+/********* Quotes inside the paragraphs ********/
+#first-paragraph q {
+    font-family: fantasy;
+}
+
+#second-paragraph q {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#third-paragraph q {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#forth-paragraph q {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/************** Second part of the exercise *******************/
+
+#sixth-paragraph {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#seventh-paragraph {
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+
+

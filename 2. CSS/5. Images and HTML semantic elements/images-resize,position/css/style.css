@@ -1,0 +1,17 @@
+#firstPicture {
+    float: right;
+    height: 200px;
+    display: block;
+}
+#secondPicture {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thirdPicture {
+    height: 200px;
+    width: 200px;
+    display: block;
+    float: left;
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  height: 968px;
+  position: relative;
+  margin: 0;
+}
+
+.mario {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 47%;
+  bottom: 8%;
+  background-image: url("../img/mario.png");
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+.mario.running {
+  background-image: url("../img/mario_running.gif");
+}
+.reverse {
+  transform: rotateY(180deg);
+}
+.mario.jump {
+  bottom: 40%;
+}

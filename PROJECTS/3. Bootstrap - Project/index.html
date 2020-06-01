@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--------------------------------------- HEAD --------------------------------------->
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- Title -->
+    <title>Bootstrap Project</title>
+</head>
+
+<!--------------------------------------- BODY --------------------------------------->
+
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <div class="row navbar">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2 navbar-logo">BIT STUDENT</div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-4 portfolio-menu">PORTFOLIO</div>
+                    <div class="col-lg-4 about-menu">ABOUT</div>
+                    <div class="col-lg-4 contact-menu">CONTACT</div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-lg-12 student-profile">
+                <img id="student-img" src="img/profile.png">
+                <h1>BOOTSTRAP AND SASS</h1>
+                <div class="star-white">
+                    <div class="star-line"></div><i class="fa fa-star" aria-hidden="true"></i>
+                    <div class="star-line-2"></div>
+                </div>
+                <p>Web Developer - Graphic Artist - User Experience Designer</p>
+            </div>
+        </div>
+        <!-- Portfolio -->
+        <div class="row portfolio">
+            <h2>PORTFOLIO</h2>
+            <!-- <div class="star-black">
+                <div class="star-line"></div><i class="fa fa-star" aria-hidden="true"></i>
+                <div class="star-line-2"></div>
+            </div> -->
+        </div>
+        <div class="row portfolio-images">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-2"><img src="img/portfolio/cabin.png" alt="cabin"></div>
+            <div class="col-lg-2"><img src="img/portfolio/cake.png" alt="cake"></div>
+            <div class="col-lg-2"><img src="img/portfolio/circus.png" alt="circus"></div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row portfolio-images-two">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-2"><img src="img/portfolio/game.png" alt="game"></div>
+            <div class="col-lg-2"><img src="img/portfolio/safe.png" alt="safe"></div>
+            <div class="col-lg-2"><img src="img/portfolio/submarine.png" alt="submarine"></div>
+            <div class="col-lg-3"></div>
+        </div>
+        <!-- About -->
+        <div class="about">
+            <h2>ABOUT</h2>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repudiandae voluptas cumque saepe
+                        ipsam? Nostrum est totam omnis enim suscipit? Sint rerum obcaecati magni, exercitationem quo
+                        reiciendis, voluptates corporis qui culpa officiis, necessitatibus temporibus praesentium quam
+                        dolores. Provident, eius possimus.</p>
+                </div>
+                <div class="col-lg-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum non
+                        odio ad est molestias ipsum voluptas delectus atque eius nemo praesentium, iusto porro expedita
+                        unde
+                        sit
+                        dolorem libero minus. Modi quasi mollitia quas pariatur voluptatem cumque, suscipit obcaecati
+                        vitae
+                        repellat!</p>
+                </div>
+            </div>
+            <button type="button" class="btn"><i class="fa fa-info-circle" aria-hidden="true"></i>Find Out
+                More</button>
+        </div>
+        <!-- Contact -->
+        <div class="contact">
+            <h2>CONTACT ME</h2>
+            <div class="row">
+                <div class="offset-lg-3 col-lg-6">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <input type="text" class="form-control" id="message">
+                        </div>
+                        <button type="submit" class="btn btn-default">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!------------------- JS for BOOTSTRAP ---------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

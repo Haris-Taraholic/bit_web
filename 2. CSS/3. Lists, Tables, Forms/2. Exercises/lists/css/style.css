@@ -1,0 +1,26 @@
+
+#first-list {
+    list-style-type: circle;
+}
+
+#second-list {
+    list-style-type: square;
+}
+
+#third-list {
+    list-style-type: upper-alpha;
+}
+
+#fourth-list {
+    list-style-type: upper-roman;
+}
+
+#first-additional {
+    width: 200px;
+    list-style-image: url(../img/arrow.png);
+}
+
+#second-additional {
+    width: 200px;
+    list-style-position: inside;
+}

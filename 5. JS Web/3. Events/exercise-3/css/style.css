@@ -1,0 +1,10 @@
+body {
+  background-image: url(../img/field.png);
+  background-size: cover;
+  height: 950px;
+}
+
+#player-img {
+  width: 5%;
+  position: absolute;
+}

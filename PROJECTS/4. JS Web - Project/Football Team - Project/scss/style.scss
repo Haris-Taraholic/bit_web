@@ -1,0 +1,64 @@
+//////////////////////////// GENERAL SETTINGS //////////////////////////////
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+// .container {
+//   width: 100%;
+//   margin: 0;
+// }
+
+//////////////////////////// HEADER //////////////////////////////
+header {
+  width: 100%;
+  background-image: url("../img/bg_header.jpg");
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 5px solid #f5bc4e;
+  border-bottom: 5px solid #f5bc4e;
+  h1 {
+    font-family: fantasy;
+    margin-top: 45px;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+  }
+}
+//////////////////////////// SECTION ONE //////////////////////////////
+h2 {
+  font-family: fantasy;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: red;
+  text-shadow: 5px 5px 0px #f5bc4e;
+}
+
+#sectionOne {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.div-class {
+  width: 90%;
+}
+.name-class {
+  color: red;
+}
+
+//////////////////////////// SECTION TWO //////////////////////////////
+
+#sectionTwo {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+
+hr {
+  border-bottom: 5px solid #f5bc4e;
+}

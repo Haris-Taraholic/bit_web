@@ -1,0 +1,68 @@
+#div-one{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+#div-two{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+#div-three{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+}
+/**************************/
+#div-four{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+#div-five{
+    position: relative;
+    top: -133px;
+    left: 86px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+#div-six{
+    position: relative;
+    top: -264px;
+    left: 169px;
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+}
+
+/**********************************/
+#s{
+    position: relative;
+}
+#div-seven{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    bottom: 130px;
+    right: 15px;
+    z-index: 2;
+}
+#div-eight{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    bottom: 65px;
+    right: 95px;
+    z-index: 1;
+}
+#div-nine{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+}

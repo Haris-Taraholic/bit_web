@@ -1,0 +1,63 @@
+/*********** General settings **********/
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+img {
+    height: 100px;
+}
+
+td {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/******* Header *******/
+#header th {
+    background-color: brown;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/******* First row ******/
+
+.rows td {
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.bg-color {
+
+    background-color: lightgrey;
+}
+
+.rows:hover {
+    background-color: orange;
+    z-index: 1;
+}
+
+/************ Images *********/
+
+#first-img {
+    padding-left: 20px;
+}
+
+#second-img {
+    padding-left: 5px;
+}
+
+#third-img {
+    padding-left: 10px;
+}
+
+#forth-img {
+    padding-left: 20px;
+}
+
+#fifth-img {
+    padding-left: 5px;
+}

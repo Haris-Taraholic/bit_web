@@ -1,0 +1,90 @@
+/******** FIRST VERSION OF EXERCISE ********/
+
+/* #bg-color {
+    background-color: yellow;
+}
+
+p {
+    border: solid 5px;
+}
+
+#first-paragraph {
+    border-style: dashed;
+    padding: 50px;
+    width: 300px;
+    margin: 50px;
+    text-align: justify;
+    background-color: yellow;
+}
+
+#second-heading, #second-paragraph {
+    border: solid green;
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: yellow;
+}
+
+#third-paragraph{
+    border-style: dashed;
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+    text-align: justify;
+    background-color: yellow;
+} */
+
+
+/******** SECOND VERSION OF EXERCISE ********/
+#main-title {
+    width: 960px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px 0px;
+    margin: auto;
+    background-color:lightcoral ;
+    color: #665b40;
+    font-family: fantasy;
+    border-radius: 50px;
+    box-shadow: 5px 10px #665b40;
+    -moz-box-sizing: 5px 10px #665b40;
+    -webkit-box-sizing: 5px 10px #665b40;
+}
+
+p {
+    border: solid 5px;
+    display: inline-block;
+}
+
+#first-paragraph {
+    border-style: dashed;
+    padding: 0;
+    width: 300px;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: yellow;
+}
+
+#second-heading, #second-paragraph {
+    border: solid green;
+    padding: 0;
+    width: 400px;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: yellow;
+    visibility: hidden; /*We could also have the same result with - opacity: 0;*/
+}
+
+#third-paragraph{
+    border-style: dashed;
+    padding: 0;
+    width: 200px;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: yellow;
+    opacity: 0;
+}
+
+
+

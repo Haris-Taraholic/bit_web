@@ -1,0 +1,28 @@
+.about {
+  background-color: $greenish;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-family: "LatoBlack";
+}
+
+.about p {
+  color: #fff;
+  font-family: "LatoRegular";
+}
+
+.about .btn {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,31 @@
+.contact h2 {
+  text-align: center;
+  font-family: "LatoBlack";
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  margin-bottom: 0px;
+  font-family: "LatoBold";
+  font-size: 18px;
+  color: gray;
+}
+
+#name,
+#email,
+#phone,
+#message {
+  border: none;
+  border-bottom: 1px solid #f1ede7;
+  border-radius: 0;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.contact button {
+  background-color: $greenish;
+  color: #fff;
+  font-family: "LatoBlack";
+}

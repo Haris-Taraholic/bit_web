@@ -1,0 +1,23 @@
+/****Heading****/
+.portfolio h2 {
+  text-align: center;
+  font-family: "LatoBlack";
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/****Portfolio Images****/
+.portfolio-images img {
+  width: 100%;
+}
+.portfolio-images .col-lg-2 {
+  padding-left: 0px;
+}
+.portfolio-images-two img {
+  width: 100%;
+}
+.portfolio-images-two .col-lg-2 {
+  padding-left: 0px;
+  padding-top: 15px;
+}

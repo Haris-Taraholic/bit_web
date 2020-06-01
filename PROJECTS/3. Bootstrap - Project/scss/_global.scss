@@ -1,0 +1,54 @@
+/********** STAR WHITE **********/
+.star-white {
+  display: relative;
+}
+.star-white i {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+.star-line {
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: 22%;
+  padding-right: 45px;
+  left: 45%;
+}
+
+.star-line-2 {
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  bottom: 22%;
+  padding-right: 45px;
+  right: 45%;
+}
+
+/********** STAR BLACK **********/
+// .star-black {
+//   display: relative;
+// }
+// .star-black i {
+//   position: absolute;
+//   top: 76%;
+//   left: 49.5%;
+//   display: block;
+//   text-align: center;
+//   color: #000;
+// }
+
+// .star-black .star-line {
+//   border-bottom: 2px solid #000;
+//   position: absolute;
+//   bottom: 22%;
+//   padding-right: 45px;
+//   left: 45%;
+// }
+
+// .star-black .star-line-2 {
+//   border-bottom: 2px solid #000;
+//   position: absolute;
+//   bottom: 22%;
+//   padding-right: 45px;
+//   right: 45%;
+// }

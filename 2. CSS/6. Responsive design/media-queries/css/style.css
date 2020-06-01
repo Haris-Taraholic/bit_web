@@ -1,0 +1,85 @@
+/********** GENERAL SETTINGS **********/
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/*********** HEADER ************/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #428BCA;
+}
+
+ul li a:hover {
+    padding: 10px 12px;
+    background-color: #428BCA;
+    color: white;
+    border-radius: 3px;
+}
+
+/************* MAIN ***************/
+#slider {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 100%;
+}
+
+main {
+    padding: 30px 0;
+    display: flex;
+}
+
+main article img {
+    width: 100%;
+}
+
+main article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    margin-right: 2%;
+}
+
+article:last-child {
+    margin: 0px;
+}
+
+article p {
+    text-align: center;
+}
+
+
+
+/*********** MEDIA QUERIES - RESPONSIVE ************/
+@media all and (max-width: 800px) {
+    main article {
+        width: 100%;
+    }
+}

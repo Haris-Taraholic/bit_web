@@ -1,0 +1,26 @@
+.student-profile {
+  background-color: $greenish;
+}
+
+#student-img {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 15%;
+}
+.student-profile h1 {
+  font-family: "LatoBlack";
+  color: white;
+  text-align: center;
+  font-size: 44px;
+}
+
+.student-profile p {
+  font-family: "LatoBold";
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}

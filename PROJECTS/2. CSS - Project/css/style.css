@@ -1,0 +1,561 @@
+/*********** GENERAL SETTINGS ************/
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*********** FONT FACE ****************/
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+
+/********************* BODY *********************/
+/*********** Header and slider ***********/
+header img {
+    width: 100%;
+    background-size: contain;
+}
+
+/* Header */
+
+header {
+    position: relative;
+}
+
+header h2 {
+    color: #fff;
+    font-family: Roboto;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+header span {
+    color: orange;
+    margin-left: 15px;
+    padding-left: 3px;
+    border: 3px solid #fff;
+    border-right: none;
+}
+
+header ul {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+header ul li {
+    color: #fff;
+    list-style-type: none;
+    padding: 10px 15px;
+    font-family: Roboto;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Slider */
+
+header h1 {
+    font-family: RobotoLight;
+    color: #fff;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    right: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+
+#slider-button {
+    position: absolute;
+    bottom: 33%;
+    left: 45%;
+    background-color: #1C70B1;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-family: RobotoMedium;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/****************** MAIN *****************/
+/* First Section - H2 and Square*/
+
+#section-h2 {
+    font-family: RobotoLight;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+    margin: 5% 37% 3% 37%;
+    text-align: center;
+    position: relative;
+}
+
+#first-section-square {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 2px solid;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    position: absolute;
+    top: 86%;
+    left: 47%;
+}
+
+
+/************ First section **************/
+#first-section {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#first-section h3 {
+    font-family: RobotoLight;
+    color: #4EA0DF;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#first-section p {
+    font-family: RobotoMedium;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+/* First section - articles */
+
+#first-article {
+    width: 33%;
+    margin-left: 60px;
+    margin-right: 15px;
+}
+
+#second-article {
+    width: 33%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#second-article img {
+    width: 100%;
+}
+
+#third-article {
+    width: 33%;
+    margin-right: 60px;
+    margin-left: 15px;
+}
+
+#first-section ul {
+    list-style-image: url('../img/arrow_bullet.png');
+    padding-left: 20px;
+    font-family: RobotoLight;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#first-section li {
+    padding-top: 10px;
+}
+
+
+/*********************************/
+/*********** Second Section ***********/
+#second-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#second-section article {
+    width: 30%;
+    background-color: #82C3F5;
+}
+
+#second-section article div {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#second-section article h4 {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: Roboto;
+}
+
+#second-section img {
+    border-radius: 50%;
+    border: 3px solid #82C3F5;
+    box-shadow: 0 0 0 2px #fff;
+    width: 30%;
+    float: left;
+}
+
+#second-section p {
+    line-height: 25px;
+    font-family: RobotoLight;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+}
+
+#second-section-square {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 2px solid;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    position: absolute;
+    top: 86%;
+    left: 47%;
+}
+
+
+/*********************************/
+/*********** Third Section ***********/
+#third-section {
+    position: relative;
+}
+
+#third-section_article-wrapper {
+    display: flex;
+}
+
+#third-section article {
+    width: 25%;
+}
+
+.third-section_text-style {
+    color: #fff;
+    font-family: RobotoLight;
+    text-align: center;
+    padding: 60px 20px 0px 20px;
+}
+
+#third-section-square {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 2px solid;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    position: absolute;
+    top: 86%;
+    left: 47%;
+}
+
+
+/* First article */
+.third-section_first-article {
+    background-color: #3BDD9A;
+}
+
+/* Second article */
+.third-section_second-article {
+    background-color: #FD5282;
+}
+
+.third-section_second-article i {
+    margin: 5px 5px 0px 5px;
+}
+
+/* Third article */
+.third-section_third-article {
+    background-color: #376DE4;
+}
+
+/* Forth article */
+.third-section_forth-article {
+    background-color: #82C3F5;
+    height: auto;
+    text-align: center;
+}
+
+
+/*********************************/
+/*********** Forth Section ***********/
+form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-style {
+    width: 30%;
+    padding: 15px 0px 15px 15px;
+    font-family: RobotoMedium;
+}
+
+#email {
+    margin: 0 1.7%;
+}
+
+#message {
+    width: 94%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 15px 0px 150px 15px;
+    font-family: RobotoMedium;
+}
+
+#submit-btn {
+    background-color: #FD9727;
+    color: #fff;
+    font-family: RobotoMedium;
+    padding: 15px 20px;
+    border: none;
+    margin-left: 3%;
+}
+
+
+/*********** Footer ***********/
+footer {
+    height: 150px;
+    padding-top: 45px;
+    margin-top: 50px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+}
+
+.footer-li {
+    display: inline-block;
+    color: #fff;
+    font-family: RobotoMedium;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+footer p {
+    margin-top: 30px;
+    color: #fff;
+    font-family: RobotoMedium;
+    font-size: 14px;
+}
+
+
+/**********************************/
+/**************** MEDIA QUERY *****************/
+/**************** Above 768px *****************/
+/*********** Header and slider ***********/
+@media only screen and (max-width: 1600px) {
+    header h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    header h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    header h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    header h1 {
+        font-size: 33px;
+    }
+
+    #slider-button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    #slider-button {
+        font-size: 14px;
+    }
+}
+
+
+/****************** MAIN *****************/
+/************ First section **************/
+@media only screen and (max-width: 1300px) {
+    #first-article {
+        margin-left: 0;
+    }
+
+    #third-article {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #first-article {
+        margin: 0;
+    }
+
+    #third-article {
+        margin: 0;
+    }
+
+    #first-section h3 {
+        font-size: 16px;
+    }
+
+    #first-section p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    #first-section ul {
+        line-height: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    #first-section h3 {
+        font-size: 14px;
+    }
+
+    #first-section p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    #first-section ul {
+        line-height: 14px;
+    }
+}
+
+
+/*********************************/
+/*********** Second Section ***********/
+@media only screen and (max-width: 1100px) {
+    #second-section article {
+        width: 32%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    #second-section {
+        width: 95%;
+    }
+
+    #second-section-square {
+        top: 87%;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    #second-section {
+        width: 100%;
+    }
+}
+
+
+/*********************************/
+/*********** Third Section ***********/
+@media only screen and (max-width: 865px) {
+    #third-section-square {
+        top: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #third-section-img {
+        width: 90%;
+    }
+
+    .third-section_text-style {
+        padding-top: 50px;
+    }
+
+    #third-section h3 {
+
+        font-size: 16px;
+    }
+
+    #third-section p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    #third-section-img {
+        width: 90%;
+    }
+
+    .third-section_text-style {
+        padding-top: 40px;
+    }
+
+    #third-section h3 {
+
+        font-size: 15px;
+    }
+
+    #third-section p {
+        font-size: 13px;
+    }
+}
+
+/**************** For Tables 768px *****************/
+@media only screen and (max-width: 768px) {
+    header h1{
+        font-size: 24px;
+    }
+    #slider-button {
+        bottom: 25%;
+        left: 41%;
+    }
+}

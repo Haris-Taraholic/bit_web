@@ -1,0 +1,12 @@
+.about {
+  border-bottom: 1px solid;
+}
+.to-upper-case {
+  text-transform: uppercase;
+}
+.active {
+  color: blue;
+}
+.bg-color {
+  background-color: chocolate;
+}

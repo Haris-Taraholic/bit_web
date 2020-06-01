@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<!-------------------------- HEAD ----------------------------->
+
+<head>
+    <title> Create new wanted poster</title>
+    <meta name="description" content="Most Wanted Criminals">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Stefan & Aleksa">
+
+</head>
+<!-------------------------- HEAD /END ----------------------------->
+<!-------------------------- BODY ----------------------------->
+
+<body>
+    <pre>                                                                  <a href="../posters/index.html">Back to home page</a></pre>
+
+    <!------------------>
+    <table width="960px" align="center">
+        <tr>
+            <td>
+                <form>
+                    <!------ Fieldset Tag 2 ------>
+                    <fieldset>
+                        <legend>Top Headline</legend>
+                        <label>
+                            Headline text:
+                            <input type="text" name="Headline">
+
+                        </label>
+
+                    </fieldset>
+                    <br>
+                    <!------ Fieldset Tag 2 ------>
+                    <fieldset>
+                        <legend>Images</legend>
+                        <label> Image 1:
+                            <input type="submit" name="img1" value="Choose file">
+                        </label>
+                        <br>
+                        <br>
+                        <label> Image 2:
+                            <input type="submit" name="img2" value="Choose file">
+                        </label>
+                        <br>
+                        <br>
+                        <label> Image 3:
+                            <input type="submit" name="img3" value="Choose file">
+                        </label>
+                    </fieldset>
+                    <br>
+                    <!------ Fieldset Tag 3 ------>
+                    <fieldset>
+                        <legend>Reward</legend>
+                        <label>Reward money:
+                            <input type="number" name="money" required>
+                        </label>
+                    </fieldset>
+                    <br>
+                    <!------ Fieldset Tag 4 ------>
+                    <fieldset>
+                        <legend>Reward</legend>
+
+                        <label>Aliases:
+                            <br>
+                            <input type="text" name="alias">
+                        </label>
+                        <br>
+                        <br>
+                        <!-------------->
+                        <label>Birth:
+                            <br>
+                            <input type="date" name="birth">
+                        </label>
+                        <br>
+                        <br>
+                        <!--------------->
+                        <label>Hair:
+                            <br>
+                            <input type="text" name="hair">
+                        </label>
+                        <br>
+                        <br>
+                        <!--------------->
+                        <label>Eyes:
+                            <br>
+                            <input type="text" name="eyes">
+                        </label>
+                        <br>
+                        <br>
+                        <!---------------->
+                        <label>Height:
+                            <br>
+                            <input type="text" name="height">
+                        </label>
+                        <br>
+                        <br>
+                        <!----------------->
+                        <label>Weight:
+                            <br>
+                            <input type="text" name="weight">
+                        </label>
+                        <br>
+                        <br>
+                        <!------------------>
+                        <label>Sex:
+                            <br>
+                            <input type="radio" value="m" name="sex"> Male
+                            <input type="radio" name="sex" value="f">Female
+                            <input type="radio" value="other" name="sex"> Other
+                        </label>
+                        <br>
+                        <br>
+                        <!------------------->
+                        <label>ID Number :
+                            <br>
+                            <input type="number" name="id">
+                        </label>
+                        <br>
+                        <br>
+                        <!-------------------->
+                        <label>Occupation :
+                            <br>
+                            <input type="text" name="occupation">
+                        </label>
+                    </fieldset>
+                    <br>
+                   <!------ Fieldset Tag 5 ------>
+                    <fieldset>
+                        <Legend>Remarks</Legend>
+                        <textarea width="100%" height="100vh" placeholder="Remarks text"></textarea>
+
+                    </fieldset>
+                    <br>
+                    <!------ Fieldset Tag 6 ------>
+                    <fieldset>
+                        <legend>Caution </legend>
+                        <textarea name="cuation" placeholder="Caution text"></textarea>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <input type="reset">
+                    <button>Create poster</button>
+                </form>
+                <br>
+                <br>
+                <hr>
+                <!-------------------------------->
+            </td>
+        </tr>
+    </table>
+
+</body>
+<!-------------------------- BODY /END ----------------------------->
+
+</html>

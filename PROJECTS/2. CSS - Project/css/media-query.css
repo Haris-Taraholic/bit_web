@@ -1,0 +1,100 @@
+/**************** MEDIA QUERY *****************/
+/*********** Header and slider ***********/
+@media only screen and (max-width: 1600px) {
+    header h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    header h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    header h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    header h1 {
+        font-size: 33px;
+    }
+
+    #slider-button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    #slider-button {
+        font-size: 14px;
+    }
+}
+
+
+/****************** MAIN *****************/
+/************ First section **************/
+@media only screen and (max-width: 1300px) {
+    #first-article {
+        margin-left: 0;
+    }
+
+    #third-article {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #first-article {
+        margin: 0;
+    }
+
+    #third-article {
+        margin: 0;
+    }
+
+    #first-section h3 {
+        font-size: 16px;
+    }
+
+    #first-section p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    #first-section ul {
+        line-height: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    #first-section h3 {
+        font-size: 14px;
+    }
+
+    #first-section p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    #first-section ul {
+        line-height: 14px;
+    }
+}
+
+/*********************************/
+/*********** Second Section ***********/

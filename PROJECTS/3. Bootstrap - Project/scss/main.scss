@@ -1,0 +1,53 @@
+/************ IMPORT SCSS ************/
+@import "variables";
+@import "mixins";
+@import "navbar";
+@import "contact";
+@import "global";
+@import "slider";
+@import "portfolio";
+@import "about";
+
+/************ FONT FACE ************/
+@font-face {
+  font-family: "LatoBLack";
+  src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: "LatoBLackItalic";
+  src: url(../fonts/Lato-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "LatoBold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "LatoBoldItalic";
+  src: url(../fonts/Lato-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "LatoHairline";
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+@font-face {
+  font-family: "LatoHairlineItalic";
+  src: url(../fonts/Lato-HairlineItalic.ttf);
+}
+@font-face {
+  font-family: "LatoItalic";
+  src: url(../fonts/Lato-Italic.ttf);
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "LatoLightItalic";
+  src: url(../fonts/Lato-LightItalic.ttf);
+}
+@font-face {
+  font-family: "LatoRegular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+/************ GENERAL SETTINGS ************/

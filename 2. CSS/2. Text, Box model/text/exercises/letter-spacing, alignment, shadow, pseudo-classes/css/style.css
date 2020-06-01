@@ -1,0 +1,34 @@
+/************ First part of the exercise **********/
+#first-paragraph {
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+#second-paragraph {
+    line-height: 2em;
+    text-align: right;
+}
+
+#third-paragraph {
+    font-style: none;
+    text-align: center;
+}
+
+/************ Second part of the exercise **********/
+ul {
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+ul a:visited {
+    color: black;
+}
+
+ul a:hover {
+    color: greenyellow;
+}
+
+ul a:active {
+    color: blue;
+}
+
+/*******************************************************/

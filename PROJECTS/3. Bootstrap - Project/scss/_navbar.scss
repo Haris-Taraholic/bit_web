@@ -1,0 +1,25 @@
+.navbar {
+  background-color: $blueish;
+  color: whitesmoke;
+  font-family: "LatoBlack";
+}
+
+.navbar-logo {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.portfolio-menu {
+  font-size: 14px;
+  text-align: center;
+}
+.about-menu {
+  font-size: 14px;
+  text-align: center;
+  padding-right: 5px;
+}
+.contact-menu {
+  font-size: 14px;
+  text-align: center;
+  padding-left: 0px;
+}

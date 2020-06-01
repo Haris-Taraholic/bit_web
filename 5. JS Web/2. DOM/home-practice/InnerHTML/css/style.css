@@ -1,0 +1,47 @@
+/************************ DOM PRACTICE **********************/
+
+/****** InnerHTMl ******/
+body {
+    width: 100%;
+    height: 500px;
+}
+
+/*First dropdown */
+.first-div {
+    display: inline;
+}
+
+.first-div>select {
+    margin: 20px;
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(197, 110, 110);
+    color: rgb(66, 49, 26);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first-div>select>option {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Second dropdown */
+.second-div {
+    display: inline;
+}
+
+.second-div>select {
+    margin: 20px;
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(75, 62, 62);
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second-div>select>option {
+    font-size: 20px;
+    font-weight: bold;
+}

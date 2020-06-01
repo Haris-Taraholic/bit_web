@@ -1,0 +1,7 @@
+div img {
+  display: none;
+}
+
+.active {
+  display: block;
+}

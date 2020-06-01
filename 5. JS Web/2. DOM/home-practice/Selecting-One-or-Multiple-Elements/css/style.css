@@ -1,0 +1,15 @@
+/****** All <li> Elements ******/
+.all-li-elements {
+    background-color: teal;
+}
+
+/****** Second List *****/
+.second-list_bg-color {
+    background-color: tomato;
+}
+
+/****** Third List *******/
+.all-li-elements-from-third-list {
+    background-color: sandybrown!important;
+    text-transform: uppercase;
+}
