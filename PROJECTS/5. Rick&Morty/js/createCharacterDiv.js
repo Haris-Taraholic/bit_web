@@ -20,7 +20,9 @@ const liked = (event) => {
 
 const setLike = (likeDiv) => {
     const likedItems = localStorage.getItem('liked');
+    JSON.stringify(likedItems);
     const likedData = likedItems || [];
+    JSON.parse(likedData);
     localStorage.setItem('liked', likedData)
 }
 const createButton = () => {
@@ -40,7 +42,7 @@ export const creating = function (charachter) {
         charaDiv.appendChild(createImage(charachter[i]));
         charaDiv.appendChild(createName(charachter[i]));
         charaDiv.appendChild(createButton());
-        charaDiv.setAttribute("id", charachter[i].id);
+        charaDiv.setAttribute("data-id", charachter[i].id);
         mainDiv.appendChild(charaDiv);
 
     }
