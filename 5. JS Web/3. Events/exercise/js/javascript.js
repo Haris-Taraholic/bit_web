@@ -3,5 +3,6 @@ function toggleBackground() {
 }
 
 function toggleBackgroundOff() {
+    document.querySelector("body").classList.remove("active");
     document.querySelector("button").removeAttribute("onclick");
 }

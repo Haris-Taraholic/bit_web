@@ -1,0 +1,79 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/background.png);
+}
+
+.header {
+    box-sizing: border-box;
+    padding-left: 25px;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+/*================  PAGE NUMBER   =======================*/
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    background-color: white;
+}
+
+li:last-child {
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
+
+li:first-child {
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
+
+ul li:hover {
+    background-color: green;
+}
+
+/*================   MainDIv style    =======================*/
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.likeBtn {
+    width: 80%;
+    margin-bottom: 15px;
+    height: 30px;
+    color: green;
+    background-color: white;
+}
+
+.likeBtn:hover {
+    background-color: lightgreen;
+}
+
+.active {
+    background-color: green;
+    color: white;
+}
+
+.charachterDiv {
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}

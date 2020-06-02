@@ -5,10 +5,10 @@ var interval;
 
 /////////// Right Key /////////////
 //Running
+
 function running(event) {
     if (event.keyCode === 39) {
         static.classList.add('running');
-
         interval = setInterval(moveBackground, 10);
         counter -= 5;
     }
